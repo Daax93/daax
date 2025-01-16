@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000 !important;   
+}
+
+nav{
+    position: fixed !important;
+    top: 0;
+    margin: 0;
+    width: 100%;
+}
+
+li{
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+.nav-link{
+    color: #D9D8D8 !important;
+    padding: 30px !important;
+}
+.nav-link:hover{
+    color: #fff !important;
+}
+
+.section-main{
+    background-image: url(/img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    box-shadow: inset 0px 80px 80px rgb(0, 0, 0, 0.9); 
+}
+.section-video{ 
+    box-shadow: 0px -20px 40px rgb(0, 0, 0);
+}
+.section-profile{
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url(/img/bg-profile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-contact{
+    background-color: #282929;
+    padding: 15px 0;
+    box-shadow: inset 0px 20px 20px rgb(0, 0, 0, 0.5); 
+}
+
+.title{
+    color: #FE0003;
+    font-family: "Road Rage", serif;
+    font-weight: bold;
+    font-size: 4.5rem;
+    letter-spacing: 4px;
+}
+
+.box-video {
+    width: 100%;
+    height: 100%;
+}
+video{
+    border-radius: 10px;
+    width: 100%;
+}
+
+
