@@ -24,7 +24,7 @@ li{
 }
 
 .section-main{
-    background-image: url(/img/bg.png);
+    background-image: url(../img/bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -34,7 +34,7 @@ li{
     box-shadow: 0px -20px 40px rgb(0, 0, 0);
 }
 .section-profile{
-    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url(/img/bg-profile.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url(../img/bg-profile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
